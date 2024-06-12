@@ -94,7 +94,7 @@ def removeGame():
                     p.write(line)
             p.close()
         elif whichService == 1:
-            gameOut = input("What is the name of the game that you want to remove?\n")
+            gameOut = input("What is the name of the game that you want ta remove?\n")
             o = open("epicGames.txt", "r")
             lines = o.readlines()
             o.close()
